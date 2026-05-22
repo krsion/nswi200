@@ -45,3 +45,6 @@ Stack grows **downward** — each nested call gets a lower address.
 | 5 ints (20 bytes)| 32 bytes            | 48 bytes       | 12 bytes          |
 
 The compiler allocates local space in **16-byte increments** to maintain stack alignment (x86-64 ABI requirement).
+
+# Garbage Collection
+- https://learn.microsoft.com/en-us/dotnet/standard/garbage-collection/fundamentals
