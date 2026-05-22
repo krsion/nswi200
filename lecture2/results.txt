@@ -1,0 +1,46 @@
+=== recursion (1 int) ===
+Compile: gcc -o recursion recursion.c
+Output (decimal addresses):
+  140735784729164
+  140735784729132  (diff = 32 bytes)
+  140735784729100  (diff = 32 bytes)
+  140735784729068  (diff = 32 bytes)
+  140735784729036  (diff = 32 bytes)
+  140735784729004  (diff = 32 bytes)
+  140735784728972  (diff = 32 bytes)
+  140735784728940  (diff = 32 bytes)
+  140735784728908  (diff = 32 bytes)
+  140735784728876  (diff = 32 bytes)
+  140735784728844  (diff = 32 bytes)
+  main: 94906583568780
+
+=== recursion4 (4 ints) ===
+Compile: gcc -o recursion4 recursion4.c
+Output (decimal addresses):
+  140726635510652
+  140726635510620  (diff = 32 bytes)
+  140726635510588  (diff = 32 bytes)
+  140726635510556  (diff = 32 bytes)
+  140726635510524  (diff = 32 bytes)
+  140726635510492  (diff = 32 bytes)
+  140726635510460  (diff = 32 bytes)
+  140726635510428  (diff = 32 bytes)
+  140726635510396  (diff = 32 bytes)
+  140726635510364  (diff = 32 bytes)
+  140726635510332  (diff = 32 bytes)
+
+=== recursion5 (5 ints) ===
+Compile: gcc -o recursion5 recursion5.c
+Output (decimal addresses):
+  140736951428012
+  140736951427964  (diff = 48 bytes)
+  140736951427916  (diff = 48 bytes)
+  140736951427868  (diff = 48 bytes)
+  140736951427820  (diff = 48 bytes)
+  140736951427772  (diff = 48 bytes)
+  140736951427724  (diff = 48 bytes)
+  140736951427676  (diff = 48 bytes)
+  140736951427628  (diff = 48 bytes)
+  140736951427580  (diff = 48 bytes)
+  140736951427532  (diff = 48 bytes)
+
