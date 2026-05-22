@@ -1,7 +1,7 @@
 CC = gcc
 CFLAGS = -Wall
 
-TARGETS = recursion recursion4 recursion5
+TARGETS = recursion recursion4 recursion5 malloc
 
 all: $(TARGETS)
 
